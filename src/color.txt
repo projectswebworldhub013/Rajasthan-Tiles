@@ -1,0 +1,12 @@
+| Purpose                       | Color Name            | Hex Code  | Usage Recommendation                                     |
+| ----------------------------- | --------------------- | --------- | -------------------------------------------------------- |
+| **Primary Brand Color**       | Royal Sandstone Brown | `#4B2E1E` | Logo text, main headings, navbar text, footer background |
+| **Secondary Brand Color**     | Desert Gold           | `#D4A373` | Accent highlights, buttons, icons, hover states          |
+| **Accent / Luxury Highlight** | Rajasthani Amber      | `#C58B2B` | Call-to-action buttons, section dividers, badges         |
+| **Background (Primary)**      | Marble White          | `#FAF7F2` | Main page background (clean & premium)                   |
+| **Background (Secondary)**    | Warm Stone Beige      | `#EFE6D8` | Alternate sections, cards, soft contrast areas           |
+| **Text – Primary**            | Charcoal Brown        | `#2E1C12` | Main body text, descriptions                             |
+| **Text – Secondary**          | Soft Earth Gray       | `#6B5E54` | Subtext, meta info, labels                               |
+| **Border / Divider**          | Sand Dust             | `#D6C3A3` | Card borders, separators                                 |
+| **Dark Section Background**   | Granite Brown         | `#1F140D` | Footer, dark CTA sections                                |
+| **Success / Trust Accent**    | Olive Stone           | `#7A8450` | Certifications, trust badges (optional)                  |
