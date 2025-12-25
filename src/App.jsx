@@ -6,6 +6,7 @@ import ScrollToTop from './Components/ScrollToTop'
 import FloatingButtons from './Components/FloatingButtons'
 import About from "./Pages/About"
 import Gallery from "./Pages/Gallery"
+import ContactPage from "./Pages/Contact"
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/gallery" element={<Gallery/>}/>
+        <Route path="/contact" element={<ContactPage/>}/>
       </Routes>
       <Footer/>
       <FloatingButtons/>
