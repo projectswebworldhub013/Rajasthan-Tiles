@@ -1,11 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
-import img1 from "../assets/images/hero/hero1.jpg";
-import img2 from "../assets/images/hero/hero1.jpg";
-import img3 from "../assets/images/hero/hero1.jpg";
-import img4 from "../assets/images/hero/hero1.jpg";
+import img1 from "../assets/images/i1.jpg";
+import img2 from "../assets/images/i2.jpg";
+import img3 from "../assets/images/i3.jpg";
+import img4 from "../assets/images/i4.avif";
 import img5 from "../assets/images/hero/hero1.jpg";
-import img6 from "../assets/images/hero/hero1.jpg";
+import img6 from "../assets/images/hero/hero2.jpg";
 import { Link } from "react-router-dom";
 import { FaGem } from "react-icons/fa";
 

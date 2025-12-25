@@ -5,12 +5,12 @@ import {
   FaIndustry,
   FaHandshake,
 } from "react-icons/fa";
-import imgLeft from "../assets/images/hero/hero1.jpg";
-import imgRight from "../assets/images/hero/hero2.jpg";
+import imgLeft from "../assets/images/gallery/g18.jpeg";
+import imgRight from "../assets/images/gallery/g12.jpeg";
 
 const OurStory = () => {
   return (
-    <section className="bg-[#F6F7F9] text-[#1F2937] px-6 md:px-12 lg:px-20 py-20">
+    <section className="bg-[#F6F7F9] text-[#1F2937] px-6 md:px-12 lg:px-20 pt-16 ">
       {/* Top Section */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-start">
 

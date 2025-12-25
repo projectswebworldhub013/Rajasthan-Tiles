@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FaUserCircle, FaStar, FaChevronLeft, FaChevronRight } from "react-icons/fa";
-
+import { FaQuoteLeft } from "react-icons/fa";
 const testimonials = [
   {
     name: "Amit Verma",
@@ -53,17 +53,34 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="mt-24 relative overflow-hidden bg-[#F6F7F9] py-16">
+    <section className="relative overflow-hidden bg-[#F6F7F9] py-16">
 
       {/* Heading */}
-      <div className="text-center mb-12 px-4">
-        <h3 className="text-3xl md:text-4xl font-semibold text-[#1F2937]">
-          Client Reflections
-        </h3>
-        <p className="mt-3 text-gray-500 max-w-xl mx-auto">
-          Trusted by homeowners, architects, and builders for timeless stone craftsmanship
-        </p>
-      </div>
+<div className="text-center mb-16 px-4 relative">
+
+  {/* Decorative Icon */}
+  <div className="flex items-center justify-center gap-4 mb-4">
+    <span className="w-16 h-[1px] bg-gradient-to-r from-transparent via-gray-300 to-transparent" />
+    
+    <div className="w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-md border border-gray-200 text-gray-700">
+      <FaQuoteLeft className="text-sm" />
+    </div>
+
+    <span className="w-16 h-[1px] bg-gradient-to-r from-transparent via-gray-300 to-transparent" />
+  </div>
+
+  {/* Main Heading */}
+  <h3 className="text-3xl md:text-4xl font-semibold text-[#1F2937] tracking-wide">
+    Client Reflections
+  </h3>
+
+  {/* Subheading */}
+  <p className="mt-4 text-gray-500 max-w-xl mx-auto leading-relaxed">
+    Trusted by homeowners, architects, and builders for timeless stone craftsmanship
+  </p>
+
+</div>
+
 
       {/* Desktop Auto Scroll */}
       <div className="hidden lg:block overflow-hidden w-full">
