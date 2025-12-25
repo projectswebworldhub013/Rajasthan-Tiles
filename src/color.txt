@@ -10,3 +10,21 @@
 | **Border / Divider**          | Sand Dust             | `#D6C3A3` | Card borders, separators                                 |
 | **Dark Section Background**   | Granite Brown         | `#1F140D` | Footer, dark CTA sections                                |
 | **Success / Trust Accent**    | Olive Stone           | `#7A8450` | Certifications, trust badges (optional)                  |
+
+
+
+| Purpose / Role                  | Color Name          | Hex Code / Value                           | Usage in Component        |
+| ------------------------------- | ------------------- | ------------------------------------------ | ------------------------- |
+| **Section Background**          | Soft Cloud Gray     | `#F6F7F9`                                  | Main section background   |
+| **Primary Heading Text**        | Deep Slate Gray     | `#1F2937`                                  | Main heading title        |
+| **Secondary Text**              | Muted Gray          | `#6B7280` *(tailwind `text-gray-500`)*     | Subheading / description  |
+| **Card Image Overlay (Dark)**   | Rich Black Overlay  | `rgba(0,0,0,0.8)`                          | Bottom gradient overlay   |
+| **Card Image Overlay (Mid)**    | Soft Black Overlay  | `rgba(0,0,0,0.3)`                          | Middle gradient overlay   |
+| **Primary Card Text**           | Pure White          | `#FFFFFF`                                  | Card titles               |
+| **Secondary Card Text**         | Light Ash Gray      | `#D1D5DB` *(tailwind `text-gray-300`)*     | Subtitles, meta text      |
+| **Accent – Rating Star**        | Warm Gold           | `#FACC15` *(tailwind `text-yellow-400`)*   | Star icon                 |
+| **Button Background**           | Clean White         | `#FFFFFF`                                  | View more & arrow buttons |
+| **Button Hover Background**     | Soft Gray           | `#F3F4F6` *(tailwind `hover:bg-gray-100`)* | Button hover              |
+| **Icon / Button Text**          | Neutral Dark Gray   | `#374151` *(tailwind `text-gray-700`)*     | Icons & button text       |
+| **Card Placeholder Background** | Light Neutral Gray  | `#E5E7EB` *(tailwind `bg-gray-200`)*       | Fallback card background  |
+| **Shadow Color**                | Subtle Black Shadow | `rgba(0,0,0,0.08–0.12)`                    | Cards & buttons           |

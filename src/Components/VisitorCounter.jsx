@@ -15,9 +15,9 @@ export default function VisitorCounter() {
   const formattedCount = count.toString().padStart(4, "0");
 
   return (
-    <div className="text-[#4e2d08] text-sm md:text-base font-medium text-center mx-2">
+    <div className="text-[#ffffff] text-sm md:text-base font-medium text-center mx-2">
       Visitor Count:{" "}
-      <span className="text-black font-semibold">{formattedCount}</span>
+      <span className="text-white font-semibold">{formattedCount}</span>
     </div>
   );
 }
